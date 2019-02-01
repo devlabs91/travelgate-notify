@@ -1,0 +1,29 @@
+Devlabs91\TravelgateNotify\Models\Ota\PaymentCardType\MagneticStripeAType:
+    properties:
+        track1:
+            expose: true
+            access_type: public_method
+            serialized_name: Track1
+            accessor:
+                getter: getTrack1
+                setter: setTrack1
+            xml_attribute: true
+            type: \AnySimpleType
+        track2:
+            expose: true
+            access_type: public_method
+            serialized_name: Track2
+            accessor:
+                getter: getTrack2
+                setter: setTrack2
+            xml_attribute: true
+            type: \AnySimpleType
+        track3:
+            expose: true
+            access_type: public_method
+            serialized_name: Track3
+            accessor:
+                getter: getTrack3
+                setter: setTrack3
+            xml_attribute: true
+            type: \AnySimpleType

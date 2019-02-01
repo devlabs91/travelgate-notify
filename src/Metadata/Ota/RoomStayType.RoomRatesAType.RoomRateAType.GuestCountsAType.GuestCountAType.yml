@@ -1,0 +1,29 @@
+Devlabs91\TravelgateNotify\Models\Ota\RoomStayType\RoomRatesAType\RoomRateAType\GuestCountsAType\GuestCountAType:
+    properties:
+        ageQualifyingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AgeQualifyingCode
+            accessor:
+                getter: getAgeQualifyingCode
+                setter: setAgeQualifyingCode
+            xml_attribute: true
+            type: string
+        age:
+            expose: true
+            access_type: public_method
+            serialized_name: Age
+            accessor:
+                getter: getAge
+                setter: setAge
+            xml_attribute: true
+            type: int
+        count:
+            expose: true
+            access_type: public_method
+            serialized_name: Count
+            accessor:
+                getter: getCount
+                setter: setCount
+            xml_attribute: true
+            type: int

@@ -1,0 +1,195 @@
+Devlabs91\TravelgateNotify\Models\Ota\ProfileType:
+    properties:
+        shareAllSynchInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareAllSynchInd
+            accessor:
+                getter: getShareAllSynchInd
+                setter: setShareAllSynchInd
+            xml_attribute: true
+            type: string
+        shareAllMarketInd:
+            expose: true
+            access_type: public_method
+            serialized_name: ShareAllMarketInd
+            accessor:
+                getter: getShareAllMarketInd
+                setter: setShareAllMarketInd
+            xml_attribute: true
+            type: string
+        profileType:
+            expose: true
+            access_type: public_method
+            serialized_name: ProfileType
+            accessor:
+                getter: getProfileType
+                setter: setProfileType
+            xml_attribute: true
+            type: string
+        createDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CreateDateTime
+            accessor:
+                getter: getCreateDateTime
+                setter: setCreateDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        creatorID:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatorID
+            accessor:
+                getter: getCreatorID
+                setter: setCreatorID
+            xml_attribute: true
+            type: string
+        lastModifyDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifyDateTime
+            accessor:
+                getter: getLastModifyDateTime
+                setter: setLastModifyDateTime
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastModifierID:
+            expose: true
+            access_type: public_method
+            serialized_name: LastModifierID
+            accessor:
+                getter: getLastModifierID
+                setter: setLastModifierID
+            xml_attribute: true
+            type: string
+        purgeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: PurgeDate
+            accessor:
+                getter: getPurgeDate
+                setter: setPurgeDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        rPH:
+            expose: true
+            access_type: public_method
+            serialized_name: RPH
+            accessor:
+                getter: getRPH
+                setter: setRPH
+            xml_attribute: true
+            type: string
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusCode
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+            xml_list:
+                inline: false
+                entry_name: OTA_CodeType
+                entry_namespace: 'http://www.opentravel.org/OTA/2003/05'
+        accesses:
+            expose: true
+            access_type: public_method
+            serialized_name: Accesses
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccesses
+                setter: setAccesses
+            type: Devlabs91\TravelgateNotify\Models\Ota\AccessesType
+        customer:
+            expose: true
+            access_type: public_method
+            serialized_name: Customer
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCustomer
+                setter: setCustomer
+            type: Devlabs91\TravelgateNotify\Models\Ota\CustomerType
+        userID:
+            expose: true
+            access_type: public_method
+            serialized_name: UserID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getUserID
+                setter: setUserID
+            xml_list:
+                inline: true
+                entry_name: UserID
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\ProfileType\UserIDAType>
+        prefCollections:
+            expose: true
+            access_type: public_method
+            serialized_name: PrefCollections
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getPrefCollections
+                setter: setPrefCollections
+            type: Devlabs91\TravelgateNotify\Models\Ota\PreferencesType
+        companyInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCompanyInfo
+                setter: setCompanyInfo
+            type: Devlabs91\TravelgateNotify\Models\Ota\CompanyInfoType
+        affiliations:
+            expose: true
+            access_type: public_method
+            serialized_name: Affiliations
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAffiliations
+                setter: setAffiliations
+            type: Devlabs91\TravelgateNotify\Models\Ota\AffiliationsType
+        agreements:
+            expose: true
+            access_type: public_method
+            serialized_name: Agreements
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAgreements
+                setter: setAgreements
+            type: Devlabs91\TravelgateNotify\Models\Ota\AgreementsType
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\ProfileType\CommentsAType\CommentAType>
+            xml_list:
+                inline: false
+                entry_name: Comment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Devlabs91\TravelgateNotify\Models\Ota\TPAExtensions

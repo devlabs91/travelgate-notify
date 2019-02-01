@@ -1,0 +1,32 @@
+Devlabs91\TravelgateNotify\Models\Ota\LocationGeneralType:
+    properties:
+        cityName:
+            expose: true
+            access_type: public_method
+            serialized_name: CityName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCityName
+                setter: setCityName
+            type: string
+        stateProv:
+            expose: true
+            access_type: public_method
+            serialized_name: StateProv
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStateProv
+                setter: setStateProv
+            type: Devlabs91\TravelgateNotify\Models\Ota\StateProvType
+        countryName:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryName
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCountryName
+                setter: setCountryName
+            type: Devlabs91\TravelgateNotify\Models\Ota\CountryNameType

@@ -1,0 +1,39 @@
+Devlabs91\TravelgateNotify\Models\Ota\RoomStayType\RoomRatesAType\RoomRateAType\RestrictionsAType\RestrictionAType:
+    properties:
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EffectiveDate
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDate
+            accessor:
+                getter: getExpireDate
+                setter: setExpireDate
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        expireDateExclusiveIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpireDateExclusiveIndicator
+            accessor:
+                getter: getExpireDateExclusiveIndicator
+                setter: setExpireDateExclusiveIndicator
+            xml_attribute: true
+            type: bool
+        dOWRestrictions:
+            expose: true
+            access_type: public_method
+            serialized_name: DOW_Restrictions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDOWRestrictions
+                setter: setDOWRestrictions
+            type: Devlabs91\TravelgateNotify\Models\Ota\DOWRestrictionsType

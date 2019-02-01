@@ -1,0 +1,32 @@
+Devlabs91\TravelgateNotify\Models\Ota\VehicleVendorAvailabilityType\VehAvailsAType\VehAvailAType:
+    properties:
+        vehAvailCore:
+            expose: true
+            access_type: public_method
+            serialized_name: VehAvailCore
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVehAvailCore
+                setter: setVehAvailCore
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleAvailCoreType
+        vehAvailInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: VehAvailInfo
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVehAvailInfo
+                setter: setVehAvailInfo
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleAvailAdditionalInfoType
+        advanceBooking:
+            expose: true
+            access_type: public_method
+            serialized_name: AdvanceBooking
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAdvanceBooking
+                setter: setAdvanceBooking
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleVendorAvailabilityType\VehAvailsAType\VehAvailAType\AdvanceBookingAType

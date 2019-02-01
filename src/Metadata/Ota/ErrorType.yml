@@ -1,0 +1,29 @@
+Devlabs91\TravelgateNotify\Models\Ota\ErrorType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        shortText:
+            expose: true
+            access_type: public_method
+            serialized_name: ShortText
+            accessor:
+                getter: getShortText
+                setter: setShortText
+            xml_attribute: true
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_attribute: true
+            type: string

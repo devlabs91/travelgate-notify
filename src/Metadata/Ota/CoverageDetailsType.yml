@@ -1,0 +1,11 @@
+Devlabs91\TravelgateNotify\Models\Ota\CoverageDetailsType:
+    properties:
+        coverageTextType:
+            expose: true
+            access_type: public_method
+            serialized_name: CoverageTextType
+            accessor:
+                getter: getCoverageTextType
+                setter: setCoverageTextType
+            xml_attribute: true
+            type: string

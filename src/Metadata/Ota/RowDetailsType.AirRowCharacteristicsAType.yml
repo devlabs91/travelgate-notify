@@ -1,0 +1,15 @@
+Devlabs91\TravelgateNotify\Models\Ota\RowDetailsType\AirRowCharacteristicsAType:
+    properties:
+        characteristicList:
+            expose: true
+            access_type: public_method
+            serialized_name: CharacteristicList
+            accessor:
+                getter: getCharacteristicList
+                setter: setCharacteristicList
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\SimpleListOf<string>
+            xml_list:
+                inline: false
+                entry_name: OTA_CodeType
+                entry_namespace: 'http://www.opentravel.org/OTA/2003/05'

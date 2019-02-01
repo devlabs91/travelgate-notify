@@ -1,0 +1,22 @@
+Devlabs91\TravelgateNotify\Models\Ota\VehicleResRSCoreType:
+    properties:
+        vehReservation:
+            expose: true
+            access_type: public_method
+            serialized_name: VehReservation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVehReservation
+                setter: setVehReservation
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleReservationType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Devlabs91\TravelgateNotify\Models\Ota\TPAExtensions

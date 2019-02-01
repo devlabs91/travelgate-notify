@@ -1,0 +1,70 @@
+Devlabs91\TravelgateNotify\Models\Ota\AuthorizationType:
+    properties:
+        principalCompanyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PrincipalCompanyCode
+            accessor:
+                getter: getPrincipalCompanyCode
+                setter: setPrincipalCompanyCode
+            xml_attribute: true
+            type: string
+        refNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RefNumber
+            accessor:
+                getter: getRefNumber
+                setter: setRefNumber
+            xml_attribute: true
+            type: string
+        checkAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCheckAuthorization
+                setter: setCheckAuthorization
+            type: Devlabs91\TravelgateNotify\Models\Ota\AuthorizationType\CheckAuthorizationAType
+        creditCardAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditCardAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCreditCardAuthorization
+                setter: setCreditCardAuthorization
+            type: Devlabs91\TravelgateNotify\Models\Ota\AuthorizationType\CreditCardAuthorizationAType
+        accountAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAccountAuthorization
+                setter: setAccountAuthorization
+            type: Devlabs91\TravelgateNotify\Models\Ota\AuthorizationType\AccountAuthorizationAType
+        driversLicenseAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: DriversLicenseAuthorization
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDriversLicenseAuthorization
+                setter: setDriversLicenseAuthorization
+            type: Devlabs91\TravelgateNotify\Models\Ota\DocumentType
+        bookingReferenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: BookingReferenceID
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getBookingReferenceID
+                setter: setBookingReferenceID
+            type: Devlabs91\TravelgateNotify\Models\Ota\AuthorizationType\BookingReferenceIDAType

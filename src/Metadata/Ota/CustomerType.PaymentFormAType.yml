@@ -1,0 +1,39 @@
+Devlabs91\TravelgateNotify\Models\Ota\CustomerType\PaymentFormAType:
+    properties:
+        transferAction:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferAction
+            accessor:
+                getter: getTransferAction
+                setter: setTransferAction
+            xml_attribute: true
+            type: string
+        defaultInd:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultInd
+            accessor:
+                getter: getDefaultInd
+                setter: setDefaultInd
+            xml_attribute: true
+            type: bool
+        parentCompanyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentCompanyRef
+            accessor:
+                getter: getParentCompanyRef
+                setter: setParentCompanyRef
+            xml_attribute: true
+            type: string
+        associatedSupplier:
+            expose: true
+            access_type: public_method
+            serialized_name: AssociatedSupplier
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAssociatedSupplier
+                setter: setAssociatedSupplier
+            type: Devlabs91\TravelgateNotify\Models\Ota\CustomerType\PaymentFormAType\AssociatedSupplierAType

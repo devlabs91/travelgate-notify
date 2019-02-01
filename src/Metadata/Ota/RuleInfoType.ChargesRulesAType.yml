@@ -1,0 +1,22 @@
+Devlabs91\TravelgateNotify\Models\Ota\RuleInfoType\ChargesRulesAType:
+    properties:
+        voluntaryChanges:
+            expose: true
+            access_type: public_method
+            serialized_name: VoluntaryChanges
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVoluntaryChanges
+                setter: setVoluntaryChanges
+            type: Devlabs91\TravelgateNotify\Models\Ota\VoluntaryChangesType
+        voluntaryRefunds:
+            expose: true
+            access_type: public_method
+            serialized_name: VoluntaryRefunds
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getVoluntaryRefunds
+                setter: setVoluntaryRefunds
+            type: Devlabs91\TravelgateNotify\Models\Ota\VoluntaryChangesType

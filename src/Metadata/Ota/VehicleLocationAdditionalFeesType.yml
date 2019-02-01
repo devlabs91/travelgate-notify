@@ -1,0 +1,52 @@
+Devlabs91\TravelgateNotify\Models\Ota\VehicleLocationAdditionalFeesType:
+    properties:
+        taxes:
+            expose: true
+            access_type: public_method
+            serialized_name: Taxes
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTaxes
+                setter: setTaxes
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleLocationAdditionalFeesType\TaxesAType
+        fees:
+            expose: true
+            access_type: public_method
+            serialized_name: Fees
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getFees
+                setter: setFees
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleLocationAdditionalFeesType\FeesAType
+        surcharges:
+            expose: true
+            access_type: public_method
+            serialized_name: Surcharges
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getSurcharges
+                setter: setSurcharges
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleLocationAdditionalFeesType\SurchargesAType
+        miscellaneousCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: MiscellaneousCharges
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMiscellaneousCharges
+                setter: setMiscellaneousCharges
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleLocationAdditionalFeesType\MiscellaneousChargesAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Devlabs91\TravelgateNotify\Models\Ota\TPAExtensions

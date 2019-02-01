@@ -1,0 +1,41 @@
+Devlabs91\TravelgateNotify\Models\Ota\CoveragePricedType:
+    properties:
+        required:
+            expose: true
+            access_type: public_method
+            serialized_name: Required
+            accessor:
+                getter: getRequired
+                setter: setRequired
+            xml_attribute: true
+            type: bool
+        coverage:
+            expose: true
+            access_type: public_method
+            serialized_name: Coverage
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCoverage
+                setter: setCoverage
+            type: Devlabs91\TravelgateNotify\Models\Ota\CoverageType
+        charge:
+            expose: true
+            access_type: public_method
+            serialized_name: Charge
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getCharge
+                setter: setCharge
+            type: Devlabs91\TravelgateNotify\Models\Ota\VehicleChargeType
+        deductible:
+            expose: true
+            access_type: public_method
+            serialized_name: Deductible
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getDeductible
+                setter: setDeductible
+            type: Devlabs91\TravelgateNotify\Models\Ota\DeductibleType

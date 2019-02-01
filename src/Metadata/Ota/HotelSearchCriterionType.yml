@@ -1,0 +1,228 @@
+Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType:
+    properties:
+        hotelAmenity:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelAmenity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelAmenity
+                setter: setHotelAmenity
+            xml_list:
+                inline: true
+                entry_name: HotelAmenity
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\HotelAmenityAType>
+        roomAmenity:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomAmenity
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomAmenity
+                setter: setRoomAmenity
+            xml_list:
+                inline: true
+                entry_name: RoomAmenity
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\RoomAmenityPrefType>
+        hotelFeature:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelFeature
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelFeature
+                setter: setHotelFeature
+            xml_list:
+                inline: true
+                entry_name: HotelFeature
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\HotelFeatureAType>
+        award:
+            expose: true
+            access_type: public_method
+            serialized_name: Award
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAward
+                setter: setAward
+            xml_list:
+                inline: true
+                entry_name: Award
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\AwardAType>
+        recreation:
+            expose: true
+            access_type: public_method
+            serialized_name: Recreation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRecreation
+                setter: setRecreation
+            xml_list:
+                inline: true
+                entry_name: Recreation
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\RecreationAType>
+        service:
+            expose: true
+            access_type: public_method
+            serialized_name: Service
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getService
+                setter: setService
+            xml_list:
+                inline: true
+                entry_name: Service
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\ServiceAType>
+        transportation:
+            expose: true
+            access_type: public_method
+            serialized_name: Transportation
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTransportation
+                setter: setTransportation
+            xml_list:
+                inline: true
+                entry_name: Transportation
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\TransportationAType>
+        stayDateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: StayDateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getStayDateRange
+                setter: setStayDateRange
+            type: Devlabs91\TravelgateNotify\Models\Ota\DateTimeSpanType
+        rateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: RateRange
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRateRange
+                setter: setRateRange
+            xml_list:
+                inline: true
+                entry_name: RateRange
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\RateRangeAType>
+        ratePlanCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: RatePlanCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRatePlanCandidates
+                setter: setRatePlanCandidates
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\RatePlanCandidatesType\RatePlanCandidateAType>
+            xml_list:
+                inline: false
+                entry_name: RatePlanCandidate
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        profiles:
+            expose: true
+            access_type: public_method
+            serialized_name: Profiles
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getProfiles
+                setter: setProfiles
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\ProfilesType\ProfileInfoAType>
+            xml_list:
+                inline: false
+                entry_name: ProfileInfo
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        roomStayCandidates:
+            expose: true
+            access_type: public_method
+            serialized_name: RoomStayCandidates
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getRoomStayCandidates
+                setter: setRoomStayCandidates
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\RoomStayCandidateType>
+            xml_list:
+                inline: false
+                entry_name: RoomStayCandidate
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        acceptedPayments:
+            expose: true
+            access_type: public_method
+            serialized_name: AcceptedPayments
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getAcceptedPayments
+                setter: setAcceptedPayments
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\PaymentFormType>
+            xml_list:
+                inline: false
+                entry_name: AcceptedPayment
+                skip_when_empty: true
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+        media:
+            expose: true
+            access_type: public_method
+            serialized_name: Media
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMedia
+                setter: setMedia
+            xml_list:
+                inline: true
+                entry_name: Media
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            type: array<Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\MediaAType>
+        hotelMeetingFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: HotelMeetingFacility
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getHotelMeetingFacility
+                setter: setHotelMeetingFacility
+            type: Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\HotelMeetingFacilityAType
+        mealPlan:
+            expose: true
+            access_type: public_method
+            serialized_name: MealPlan
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getMealPlan
+                setter: setMealPlan
+            type: Devlabs91\TravelgateNotify\Models\Ota\HotelSearchCriterionType\MealPlanAType
+        tPAExtensions:
+            expose: true
+            access_type: public_method
+            serialized_name: TPA_Extensions
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
+            accessor:
+                getter: getTPAExtensions
+                setter: setTPAExtensions
+            type: Devlabs91\TravelgateNotify\Models\Ota\TPAExtensions
