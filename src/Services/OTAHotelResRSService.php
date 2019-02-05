@@ -10,7 +10,6 @@ use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\XmlSchemaDateHandler;
 use Devlabs91\TravelgateNotify\Models\Ota\OTAHotelResRS;
 use Devlabs91\TravelgateNotify\Models\Ota\OTAHotelResNotifRS;
 use Devlabs91\TravelgateNotify\Models\Ota\ErrorType;
-use Devlabs91\TravelgateNotify\Models\Ota\SuccessType;
 
 class OTAHotelResRSService {
     
@@ -72,12 +71,7 @@ class OTAHotelResRSService {
             return $response;
         }
         
-        $matches = null;$oTA_HotelResRS = null;
-        if ( preg_match_all( '/^(\<\?xml.*\?>)$/imsDU', $content, $matches ) ) {
-            $xmlString = $matches[0][0];
-            $content = str_replace($xmlString, '<?xml version="1.0" encoding="utf-8"?>', $content);
-            $oTA_HotelResRS = $this->serializer->deserialize( $content, 'Devlabs91\TravelgateNotify\Models\Ota\OTAHotelResRS', 'xml');
-        }
+        $oTA_HotelResRS = $this->serializer->deserialize( $content, 'Devlabs91\TravelgateNotify\Models\Ota\OTAHotelResRS', 'xml');
         
         if(!$oTA_HotelResRS || !$oTA_HotelResRS instanceof OTAHotelResRS ) {
             $error = new ErrorType( 'Unable to parse request.' );$error->setShortText( 'Unexpected error' );$error->setCode( '-1' );$response->setErrors( [ $error ] );
