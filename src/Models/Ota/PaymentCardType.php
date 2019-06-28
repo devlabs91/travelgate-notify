@@ -42,14 +42,14 @@ class PaymentCardType
     /**
      * Credit card number embossed on the card.
      *
-     * @property string $cardNumber
+     * @property \Devlabs91\TravelgateNotify\Models\Ota\PaymentCardType\EncryptionTokenAType $cardNumber
      */
     private $cardNumber = null;
 
     /**
      * Verification digits printed on the card following the embossed number. This may also accommodate the customer identification/batch number (CID), card verification value (CVV2 ), card validation code number (CVC2) on credit card.
      *
-     * @property string $seriesCode
+     * @property \Devlabs91\TravelgateNotify\Models\Ota\PaymentCardType\EncryptionTokenAType $cardNumber
      */
     private $seriesCode = null;
 

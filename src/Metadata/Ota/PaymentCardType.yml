@@ -40,20 +40,22 @@ Devlabs91\TravelgateNotify\Models\Ota\PaymentCardType:
             expose: true
             access_type: public_method
             serialized_name: CardNumber
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
             accessor:
                 getter: getCardNumber
                 setter: setCardNumber
-            xml_attribute: true
-            type: string
+            type: Devlabs91\TravelgateNotify\Models\Ota\PaymentCardType\EncryptionTokenAType
         seriesCode:
             expose: true
             access_type: public_method
             serialized_name: SeriesCode
+            xml_element:
+                namespace: 'http://www.opentravel.org/OTA/2003/05'
             accessor:
                 getter: getSeriesCode
                 setter: setSeriesCode
-            xml_attribute: true
-            type: string
+            type: Devlabs91\TravelgateNotify\Models\Ota\PaymentCardType\EncryptionTokenAType
         effectiveDate:
             expose: true
             access_type: public_method
